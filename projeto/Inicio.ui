@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inicio</class>
+ <widget class="QMainWindow" name="inicio">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>238</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>inicio</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>305</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+    <addaction name="actionB_sico"/>
+    <addaction name="actionDisciplinas"/>
+    <addaction name="actionTurmas"/>
+    <addaction name="actionProfessores"/>
+   </widget>
+   <widget class="QMenu" name="menuHor_rio">
+    <property name="title">
+     <string>Horário</string>
+    </property>
+    <addaction name="actionCriar_Hor_rio"/>
+    <addaction name="actionExibir_Hor_rios"/>
+    <addaction name="separator"/>
+    <addaction name="actionAlterar_Aulas"/>
+    <addaction name="actionRetirar_Aulas"/>
+   </widget>
+   <widget class="QMenu" name="menuExibir">
+    <property name="title">
+     <string>Exibir</string>
+    </property>
+    <addaction name="actionSitua_o_do_Hor_rio"/>
+    <addaction name="separator"/>
+    <addaction name="actionHor_rios_Turmas_Geral"/>
+    <addaction name="actionHor_rio_Professores_Geral"/>
+    <addaction name="actionHor_rio_Professores_Individual"/>
+    <addaction name="actionHor_rio_Turmas_Individual"/>
+    <addaction name="separator"/>
+    <addaction name="actionRela_o_Profs_Dispon_veis_por_dia"/>
+    <addaction name="actionRela_o_Professores_x_Aulas"/>
+    <addaction name="actionRela_o_Disciplinas_x_Profs"/>
+   </widget>
+   <widget class="QMenu" name="menuImprimir">
+    <property name="title">
+     <string>Imprimir</string>
+    </property>
+    <addaction name="actionHor_rio_Professores_Individual_2"/>
+    <addaction name="actionHor_rio_Turmas_Individual_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionHor_rio_Professores_Geral_2"/>
+    <addaction name="actionHor_rio_Turmas_Geral_2"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuHor_rio"/>
+   <addaction name="menuExibir"/>
+   <addaction name="menuImprimir"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionB_sico">
+   <property name="text">
+    <string>Básico</string>
+   </property>
+  </action>
+  <action name="actionDisciplinas">
+   <property name="text">
+    <string>Disciplinas</string>
+   </property>
+  </action>
+  <action name="actionTurmas">
+   <property name="text">
+    <string>Turmas</string>
+   </property>
+  </action>
+  <action name="actionProfessores">
+   <property name="text">
+    <string>Professores</string>
+   </property>
+  </action>
+  <action name="actionCriar_Hor_rio">
+   <property name="text">
+    <string>Criar Horário</string>
+   </property>
+  </action>
+  <action name="actionExibir_Hor_rios">
+   <property name="text">
+    <string>Exibir Horários</string>
+   </property>
+  </action>
+  <action name="actionAlterar_Aulas">
+   <property name="text">
+    <string>Alterar Aulas</string>
+   </property>
+  </action>
+  <action name="actionRetirar_Aulas">
+   <property name="text">
+    <string>Retirar Aulas</string>
+   </property>
+  </action>
+  <action name="actionSitua_o_do_Hor_rio">
+   <property name="text">
+    <string>Situação do Horário</string>
+   </property>
+  </action>
+  <action name="actionHor_rios_Turmas_Geral">
+   <property name="text">
+    <string>Horário (Turmas - Geral)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Professores_Geral">
+   <property name="text">
+    <string>Horário (Professores - Geral)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Professores_Individual">
+   <property name="text">
+    <string>Horário (Professores - Individual)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Turmas_Individual">
+   <property name="text">
+    <string>Horário (Turmas - Individual)</string>
+   </property>
+  </action>
+  <action name="actionRela_o_Profs_Dispon_veis_por_dia">
+   <property name="text">
+    <string>Relação (Profs Disponíveis por dia)</string>
+   </property>
+  </action>
+  <action name="actionRela_o_Professores_x_Aulas">
+   <property name="text">
+    <string>Relação (Professores x Aulas)</string>
+   </property>
+  </action>
+  <action name="actionRela_o_Disciplinas_x_Profs">
+   <property name="text">
+    <string>Relação (Disciplinas x Profs)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Professores_Individual_2">
+   <property name="text">
+    <string>Horário (Professores - Individual)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Turmas_Individual_2">
+   <property name="text">
+    <string>Horário (Turmas - Individual) </string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Professores_Geral_2">
+   <property name="text">
+    <string>Horário (Professores - Geral)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Turmas_Geral">
+   <property name="text">
+    <string>Horário (Turmas - Geral)</string>
+   </property>
+  </action>
+  <action name="actionHor_rio_Turmas_Geral_2">
+   <property name="text">
+    <string>Horário (Turmas - Geral) </string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
