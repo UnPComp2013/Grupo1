@@ -4,6 +4,10 @@ using namespace std;
 
 //! fun��o que calcula o fatorial de um dado numero.
 /*!
+esta fun��o recebe como parametro um numero e retorna o seu fatorial.
+\param num numero a ser calculado o fatorial.
+
+*/
 double factorial(int num)
 
 
