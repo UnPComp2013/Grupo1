@@ -1,6 +1,9 @@
 #include<iostream>
 #include<cstdlib>
 using namespace std;
+
+//! fun��o que calcula o fatorial de um dado numero.
+/*!
 double factorial(int num)
 
 
