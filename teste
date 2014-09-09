@@ -18,6 +18,10 @@ double factorial(int num)
 	return num* factorial(num -1);
 	
 }
+//! fun��o principal do programa.
+
+
+/* esta recebe como parametro*/
 
 int main()
 {
