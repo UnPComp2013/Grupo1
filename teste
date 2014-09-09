@@ -11,3 +11,17 @@ double factorial(int num)
 	return num* factorial(num -1);
 	
 }
+
+int main()
+{
+	int num;
+	
+	setlocale(LC_All, "portuguese");
+	
+	cout<<"digite um numero: ";
+	cin >>num;
+	cout<<" o fatorial de"<< num << " e "<<  factorial(num+1)<<endl;
+	return 0;
+	system("pause");
+
+}
