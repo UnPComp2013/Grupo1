@@ -29,3 +29,5 @@ cout << "Digite o valor de R2: ";
 cin >> r2;
 if (r2<=0){
 cout << "Digite um valor maio que zero"<< "\n";
+goto p2;}
+
