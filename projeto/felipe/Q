@@ -33,3 +33,5 @@ goto p2;}
 
 p3:
 cout << "Digite o valor de R3: ";
+cin >> r3;
+if (r3<=0){
