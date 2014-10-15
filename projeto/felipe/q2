@@ -39,3 +39,5 @@ cout << "Digite um valor maior que zero"<< "\n";
 goto p3;}
 
 for (t=0; t<=(5*(r*c)); t+=(1/(r*c)))
+{
+        vc=e*(1-exp(-t/(r*c)));
