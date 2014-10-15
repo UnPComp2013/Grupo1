@@ -20,3 +20,5 @@ string p1,p2,p3,p4,p5,p6;
 p1:
 cout << "Digite o valor de R1: ";
 cin >> r1;
+if (r1<=0){
+cout << "Digite um valor maio que zero"<< "\n";
