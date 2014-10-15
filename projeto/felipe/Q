@@ -65,3 +65,5 @@ rt = serie(r1,r2,rb);
 
 cout << "Rt= "<< rt << "\n";
 return 0;
+
+}
