@@ -13,3 +13,6 @@ int paralelo (int a, int b)
 int main ()
 
 {
+
+int r1,r2,r3,r4,r5,r6,ra,rb,rt;
+string p1,p2,p3,p4,p5,p6;
