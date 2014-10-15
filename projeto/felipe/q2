@@ -3,3 +3,5 @@
 // 5Rc = tempo de carga do capacitor
 // v=(1-exp(t(r*c)))
 
+
+#include <iostream>
