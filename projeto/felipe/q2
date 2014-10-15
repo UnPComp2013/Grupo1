@@ -14,3 +14,4 @@ int main ()
 
 {
 double c, r, e, t, vc;
+string p1, p2, p3;
