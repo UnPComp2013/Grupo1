@@ -19,3 +19,4 @@ string p1, p2, p3;
 
 p1:
 cout << "Digite o valor de C: ";
+cin >>r;
