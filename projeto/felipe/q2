@@ -1,3 +1,5 @@
 // Capacitancia
 // Rc = constante de tempo
 // 5Rc = tempo de carga do capacitor
+// v=(1-exp(t(r*c)))
+
