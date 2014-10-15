@@ -22,3 +22,5 @@ cout << "Digite o valor de C: ";
 cin >>r;
 if (c<=0){
 cout << "Digite um valor maior que zero"<< "\n";
+goto p1;}
+
