@@ -44,3 +44,6 @@ cin >> r4;
 if (r4<=0){
 cout << "Digite um valor maio que zero"<< "\n";
 goto p4;}
+
+p5:
+cout << "Digite o valor de R5: ";
