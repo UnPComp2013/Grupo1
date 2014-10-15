@@ -58,3 +58,5 @@ cin >> r6;
 if (r6<=0){
 cout << "Digite um valor maio que zero"<< "\n";
 goto p6;}
+
+ra = serie(r4,r5,r6);
