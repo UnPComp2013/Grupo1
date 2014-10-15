@@ -30,3 +30,6 @@ cin >>r;
 if (r<=0){
 cout << "Digite um valor maior que zero"<< "\n";
 goto p2;}
+
+p3:
+cout << "Digite o valor de E: ";
