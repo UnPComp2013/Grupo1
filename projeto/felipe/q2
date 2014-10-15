@@ -27,3 +27,4 @@ goto p1;}
 p2:
 cout << "Digite o valor de R: ";
 cin >>r;
+if (r<=0){
