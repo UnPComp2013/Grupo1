@@ -36,3 +36,5 @@ cout << "Digite o valor de E: ";
 cin >>e;
 if (e<=0){
 cout << "Digite um valor maior que zero"<< "\n";
+goto p3;}
+
