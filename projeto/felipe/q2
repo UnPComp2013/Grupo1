@@ -34,3 +34,4 @@ goto p2;}
 p3:
 cout << "Digite o valor de E: ";
 cin >>e;
+if (e<=0){
