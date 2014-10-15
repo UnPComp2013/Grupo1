@@ -62,3 +62,5 @@ goto p6;}
 ra = serie(r4,r5,r6);
 rb = paralelo(r2,ra);
 rt = serie(r1,r2,rb);
+
+cout << "Rt= "<< rt << "\n";
