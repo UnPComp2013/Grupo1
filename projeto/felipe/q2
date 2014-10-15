@@ -16,3 +16,6 @@ int main ()
 double c, r, e, t, vc;
 string p1, p2, p3;
 // double c=100*pow(10,-6), r=100*pow(10,3), t, v=12, vc;
+
+p1:
+cout << "Digite o valor de C: ";
