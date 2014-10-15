@@ -60,3 +60,4 @@ cout << "Digite um valor maio que zero"<< "\n";
 goto p6;}
 
 ra = serie(r4,r5,r6);
+rb = paralelo(r2,ra);
