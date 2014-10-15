@@ -38,3 +38,5 @@ if (r3<=0){
 cout << "Digite um valor maio que zero"<< "\n";
 goto p3;}
 
+p4:
+cout << "Digite o valor de R4: ";
