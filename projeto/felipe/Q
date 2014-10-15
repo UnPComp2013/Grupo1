@@ -47,3 +47,5 @@ goto p4;}
 
 p5:
 cout << "Digite o valor de R5: ";
+cin >> r5;
+if (r5<=0){
