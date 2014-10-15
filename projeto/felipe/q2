@@ -10,3 +10,7 @@
 using namespace std;
 
 int main ()
+
+
+{
+double c, r, e, t, vc;
