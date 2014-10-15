@@ -24,3 +24,5 @@ if (c<=0){
 cout << "Digite um valor maior que zero"<< "\n";
 goto p1;}
 
+p2:
+cout << "Digite o valor de R: ";
